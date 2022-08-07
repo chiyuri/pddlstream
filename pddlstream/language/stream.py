@@ -1,6 +1,6 @@
 import time
-from collections import Counter, Sequence
-
+from collections import Counter
+from collections.abc import Sequence
 from pddlstream.algorithms.common import INTERNAL_EVALUATION, add_fact
 from pddlstream.algorithms.downward import make_axiom
 from pddlstream.language.constants import AND, get_prefix, get_args, is_parameter, Fact, concatenate, StreamAction, Output

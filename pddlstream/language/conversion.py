@@ -14,7 +14,7 @@ def replace_expression(parent, fn):
     if prefix == EQ:
         assert(len(parent) == 3)
         value = parent[2]
-        if isinstance(parent[2], collections.Sequence):
+        if isinstance(parent[2], collections.abc.Sequence):
             value = replace_expression(value, fn)
         return prefix, replace_expression(parent[1], fn), value
     elif prefix in (CONNECTIVES + OBJECTIVES):

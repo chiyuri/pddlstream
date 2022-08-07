@@ -1,0 +1,26 @@
+
+Local External Statistics
+External: sample-motion | n: 14 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.005
+External: sample-push | n: 1 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.000
+External: sample-pour | n: 1 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.000
+External: sample-stack | n: 1 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.000
+External: sample-grasp-ctrl | n: 5 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.001
+External: sample-grasp-stirrer | n: 1 | p_success: 1.000 | mean overhead: 0.001 | overhead: 0.001
+External: sample-grasp-cup | n: 1 | p_success: 1.000 | mean overhead: 0.001 | overhead: 0.001
+External: sample-fill | n: 1 | p_success: 1.000 | mean overhead: 0.001 | overhead: 0.001
+External: sample-scoop | n: 1 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.000
+External: sample-dump | n: 1 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.000
+External: sample-stir | n: 1 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.000
+Overall calls: 28 | Overall overhead: 0.009
+Wrote: statistics/py3/kitchen2d.pkl
+
+Local External Statistics
+External: s-region | n: 12 | p_success: 1.000 | mean overhead: 0.000 | overhead: 0.006
+External: s-grasp | n: 2 | p_success: 1.000 | mean overhead: 0.001 | overhead: 0.001
+External: s-ik | n: 14 | p_success: 1.000 | mean overhead: 0.001 | overhead: 0.010
+External: s-motion | n: 5 | p_success: 1.000 | mean overhead: 0.001 | overhead: 0.006
+External: t-cfree | n: 37 | p_success: 0.189 | mean overhead: 0.000 | overhead: 0.016
+External: t-region | n: 4 | p_success: 0.500 | mean overhead: 0.001 | overhead: 0.003
+External: dist | n: 25 | p_success: 1.000 | mean overhead: 0.001 | overhead: 0.015
+Overall calls: 99 | Overall overhead: 0.058
+Wrote: statistics/py3/continuous-tamp.pkl
